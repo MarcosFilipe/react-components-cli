@@ -1,0 +1,25 @@
+{
+  "name": "freedom-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "replace": "^1.2.1"
+  },
+  "bin": {
+    "freedom": "bin/generate"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
